@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: url('https://example.com/paper-texture.jpg') center/cover no-repeat; /* Replace with your texture URL */
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-bottom: 2px solid #ccc;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #444;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #444;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            color: #ff69b4;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .bio {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px dashed #ff69b4;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .bio h2 {
+            color: #444;
+        }
+
+        .video-gallery, .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .video-container, .photo-container {
+            width: 300px;
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 3px dashed #ff69b4;
+            border-radius: 10px;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 170px;
+            border: none;
+        }
+
+        .photo-container img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nick's Portfolio</h1>
+        <p>Videographer, Artist Manager, and Social Media Marketer | Philly Area</p>
+    </header>
+
+    <nav>
+        <a href="#bio">About Me</a>
+        <a href="#videos">Music Videos</a>
+        <a href="#photos">Photography</a>
+    </nav>
+
+    <section id="bio" class="bio">
+        <h2>About Me</h2>
+        <p>Hi! I'm Nick, an 18-year-old videographer based in Philadelphia. I've worked with artists like Matt Ox, Cr1tter, Yhapojj, and Jah$tar. I manage an artist and handle social media marketing, help run Milky Music Media, and have interned for Hyperpopdaily and Needitorkeepit. I bring creativity and energy to every project!</p>
+    </section>
+
+    <section id="videos" class="video-gallery">
+        <h2>Music Videos</h2>
+        <!-- Video 1 -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/Q9tDFmR0T8s" allowfullscreen></iframe>
+        </div>
+        <!-- Video 2 -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/7Oa2c5Il8bU" allowfullscreen></iframe>
+        </div>
+        <!-- Video 3 -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/UNh2c4dXwcU" allowfullscreen></iframe>
+        </div>
+        <!-- Video 4 -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/TpfobhDcloI" allowfullscreen></iframe>
+        </div>
+        <!-- Video 5 -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/kg7aakSioxw" allowfullscreen></iframe>
+        </div>
+        <!-- Video 6 -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/ShSq2wDNsZM" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="photos" class="photo-gallery">
+        <h2>Photography</h2>
+        <!-- Example Photo -->
+        <div class="photo-container">
+            <img src="https://example.com/photo1.jpg" alt="Photography example">
+        </div>
+        <div class="photo-container">
+            <img src="https://example.com/photo2.jpg" alt="Photography example">
+        </div>
+        <!-- Add more photos as needed -->
+    </section>
+
+    <footer>
+        &copy; 2024 Nick's Portfolio. All Rights Reserved.
+    </footer>
+</body>
+</html>
